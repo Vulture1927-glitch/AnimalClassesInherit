@@ -10,17 +10,20 @@ public class Program
         dog.Name = "Snoopy";
         dog.Eat();
         dog.Sleep();
+        dog.Bark();
 
         Cat cat = new Cat();
         cat.Name = "Juno";
         cat.Eat();
         cat.Sleep();
+        cat.Meow();
 
 
         Bird bird = new Bird();
         bird.Name = "Iago";
         bird.Eat();
         bird.Sleep();
+        bird.Fly();
 
     }
 }
